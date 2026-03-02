@@ -18,7 +18,7 @@ gdjs._49Code.GDbtn_9595replayObjects1= [];
 gdjs._49Code.GDbtn_9595replayObjects2= [];
 
 
-gdjs._49Code.asyncCallback19724804 = function (runtimeScene, asyncObjectsList) {
+gdjs._49Code.asyncCallback15110252 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs._49Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "1b", false);
 }gdjs._49Code.localVariables.length = 0;
@@ -32,7 +32,7 @@ gdjs._49Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs._49Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs._49Code.asyncCallback19724804(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs._49Code.asyncCallback15110252(runtimeScene, asyncObjectsList)));
 }
 }
 
